@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+}
+
+.container{
+     
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left-section{
+    height: 100vh;
+    width: 50%;
+    
+}
+.insiderlogo{
+    height: 100vh;
+     width: 100%;
+}
+
+
+.right-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    background-color: #08748a;
+   
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 350px;
+    background-color:#053f4b;
+    box-shadow: 0 4px 6px #0c1c42;
+    padding: 20px;
+}
+
+
+/*#name{
+ border: 1px solid lightgray;
+ height: 50px;
+}
+
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    border-radius: 0px;
+    box-sizing: border-box;
+  }
+
+  .login__button{
+    background-color: #1877f2;
+      width: 95%;
+      height: 50px;
+     margin-left: 8px;
+     border-radius: 5px;
+  }
+
+  .forgotpass{
+      margin-left: 30%;
+      margin-top: 25px;
+  }
+  a {
+    color:  #1877f2;
+    text-decoration: none;
+  }
+
+  .createaccount__button{
+     background-color: rgb(55, 187, 55);
+      width: 75%;
+      height: 50px;
+     margin-left: 40px;
+     margin-top: 20px;
+     border-radius: 5px;
+  }
+  */
+.right-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+.login-form{
+    margin-bottom: 10px;
+    
+}
+.input-field{
+    margin:10px 0 10px 0 ;
+    width: 100%;
+    padding:12px 0 12px 0;
+    border-style: none;
+    background-color: #055565;   
+    border: 1px solid rgb(13, 109, 199);
+    
+}
+
+.input-field:hover {
+    background-color: #073741;
+    color: #4ecbe4;
+}
+.input-field:focus {
+    outline: none;
+    box-shadow: 0 4px 6px #0c1c42;
+    color: rgb(35, 141, 240);
+    padding-left: 10px;
+    input-field::placeholder{
+
+    }
+}
+.login-button{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(27, 177, 223);
+    color: white;
+    font-size: 15px;
+}
+.login-button:hover{
+    background-color: rgb(26, 129, 160) ;
+
+}
+.login-button:focus{
+    outline: none;
+}
+.login-button:active{
+    background-color: rgb(81, 195, 230);
+}
+.createaccount__button{
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+    background-color:#053f4b;
+    border: 2px solid rgb(27, 177, 223);
+    color: rgb(27, 177, 223);
+}
+.createaccount__button:hover{
+    background-color: rgba(20, 106, 172, 0.2);
+}
+.createaccount__button:focus{
+    outline: none;
+
+}
+.createaccount__button:active{
+    background-color: rgb(21, 61, 73);
+}
+.forgotpass{
+    text-decoration: none;
+    color: #5555fc;
+}
+.forgotpass:hover{
+    color: rgb(59, 125, 248);
+}
+.forgotpass:active{
+    color: #5555fc;
+}
+.input-field::placeholder{
+    color:rgb(35, 141, 240);
+    padding-left: 10px;
+    font-size:14px
+}
+.input-field:focus::placeholder{
+    color: transparent;
+}
